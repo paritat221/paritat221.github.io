@@ -3,9 +3,12 @@
    top: 0;
    left: 0;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navbar {
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
     background: #ececec;
     border-style: solid;
     border-width: 1px 2px 1px 2px;
@@ -31,4 +34,32 @@ a{
 }
 a:hover{
     text-decoration:underline;
+    cursor: pointer;
+}
+
+.messages{
+    position: fixed;
+    top: 22px;
+    right: 0;
+    height:97%;
+    width:100%;
+}
+
+.msg {
+    width:99.4%;
+    font-size: 13px;
+    border-bottom: solid #e3e3e3 1px;
+    padding: 3px 6px 3px 6px;
+    display: flex;
+}
+
+.msg .date{
+    font-size: 11px;
+    color:rgba(77, 77, 77, 0.61);
+    margin-left:auto;
+    margin-right:0;
+}
+
+.messages .msg .author{
+    font-size : 12px;
 }
