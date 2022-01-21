@@ -7,6 +7,15 @@ function message(username, message, date){
     return template;
 }
 
+function message(username, message, date){ //declared two times to make javascript the main language lol
+    const template = `<div class="msg">
+                            <a class="author">${username}</a>&nbsp;&nbsp;
+                            <span class="main-msg">${message}</span>
+                            <span class="date">${date}</span>
+                      </div>`;
+    return template;
+} 
+
 const messages = [
     ["Paritat221", "I just made this website, inspired by planet-casio's shoutbox because i liked the style", "16/01/2022"],
     ["Paritat221", "Added <a href=\"/kradutils.html\">kradutils</a> to the website", "16/01/2022"],
