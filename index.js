@@ -8,6 +8,7 @@ function message(username, message, date){
 }
 
 function message(username, message, date){ //declared two times to make javascript the main language lol
+//still not enough :p maybe this comment will be the final blow
     const template = `<div class="msg">
                             <a class="author">${username}</a>&nbsp;&nbsp;
                             <span class="main-msg">${message}</span>
