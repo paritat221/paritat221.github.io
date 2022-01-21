@@ -9,7 +9,8 @@ function message(username, message, date){
 
 const messages = [
     ["Paritat221", "I just made this website, inspired by planet-casio's shoutbox because i liked the style", "16/01/2022"],
-    ["Paritat221", "Added <a href=\"/kradutils.html\">kradutils</a> to the website", "16/01/2022"]
+    ["Paritat221", "Added <a href=\"/kradutils.html\">kradutils</a> to the website", "16/01/2022"],
+    ["Paritat221", "I won't be coding in the next week, gotta visit family"]
 ];
 
 function main(){
