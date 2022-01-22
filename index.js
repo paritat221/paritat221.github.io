@@ -21,7 +21,8 @@ function message(username, message, date){ //declared two times to make javascri
 const messages = [
     ["Paritat221", "I just made this website, inspired by planet-casio's shoutbox because i liked the style", "16/01/2022"],
     ["Paritat221", "Added <a href=\"/kradutils.html\">kradutils</a> to the website", "16/01/2022"],
-    ["Paritat221", "I won't be coding in the next week, gotta visit family", "21/01/2022"]
+    ["Paritat221", "I won't be coding in the next week, gotta visit family", "21/01/2022"],
+    ["Paritat221", "Ported Krad to fx-cg50", "22/01/2022"]
 ];
 
 function main(){
